@@ -1,29 +1,43 @@
 // General Styles
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    max-width: 1500px;
+    min-height: 100vh; 
+    width: 1500px;
     background: #ffffff;
 }
+
+// section{
+//     margin-top: 100px;
+// }
 
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    width: 1516px;
+    height:572px;
     padding: 50px;
+   
+    margin-left: 10%;
+    
+    // left: 193px;
     background: white;
 }
 
 
 .text-content {
-    max-width: 45%;
+    width: 750px;
+    height: 319.41px;
+    left: 193px;
+
 
     .badge {
         background: #C9F269B2;
@@ -43,13 +57,14 @@ body {
     }
 
     p {
+        margin-top: 16px;
         font-size: 16px;
         color: #555;
         line-height: 1.6;
     }
 
     .buttons {
-        margin-top: 20px;
+        margin-top: 43px;
 
         .btn {
             padding: 12px 18px;
@@ -59,6 +74,7 @@ body {
             border-radius: 20px;
             margin-right: 10px;
             transition: 0.3s;
+            gap: 20px;
 
             &.dark {
                 background: #1E1E1E;
@@ -84,7 +100,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 725px;
+    height: 426.53px;
+    top: 5px;
+    left: 1002px;
+    border: 1px;
     
 }
 
@@ -133,10 +153,10 @@ body {
 
 // <!-- sectio 2  -->
 .frontend-role-section {
-    margin-top: 150px; 
-    // width: 80%;
-    max-width: 1500px;
-    max-width: 1200px;
+    margin-top: 100px; 
+    width: 1534px;
+    height: 572px;
+    margin-left: 5%;
 }
 
 
@@ -162,6 +182,10 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #1A1A1A;
+    width: 955px;
+    height: 140px;
+    left: 202px;
+    
    
 }
 
@@ -175,12 +199,18 @@ body {
     cursor: pointer;
     float: right;
     margin-top: -50px; 
+    margin-bottom: 80px;
+    // margin-left: 1588px;
 }
 
 
 .frontend-content {
     display: flex;
-    margin-top: 30px;
+    margin-top: 80px;
+    width: 1500px;
+    height: 352px;
+    left: 202px;
+    top: 801.53px;
 }
 
 
@@ -190,6 +220,7 @@ body {
 }
 
 .frontend-sidebar p {
+    grid-column: 40px;
     font-size: 16px;
     margin-bottom: 15px;
     color: #BEBEBE;
@@ -203,6 +234,7 @@ body {
 
 
 .frontend-description {
+    margin-left: 100px;
     flex: 3;
     font-size: 16px;
     color: #5E5E5E;
@@ -270,8 +302,9 @@ body {
 // section 3
 
 .frontend-expertise {
-    max-width: 1500px;
-    margin-top: 150px;
+     width: 1920px;
+     height: 295px;
+    margin-top: 100px;
     background: #111; 
     color: white;
     padding: 40px 100px;
@@ -279,20 +312,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    min-height: 150px;
+    // min-height: 150px;
 
     .expertise-content {
         flex: 1; 
-        // width: 1514px;
+        width: 1514px;
         height: 115px;
         // top: 80px;
         left: 203px;
         h2 {
-            width: 500px;
+            width: 664px;
             height: 94px;
-             top: 100px;
-            margin-left: 45px;
-            font-size: 26px;
+            // top: 80px;
+            margin-left: 250px;
+            font-weight: 500px;
+            font-size: 36px;
+            margin-top: 10px;
             font-weight: 700;
             color: #FFFFFF;
         }
@@ -301,11 +336,12 @@ body {
     .expertise-text {
         flex: 2; 
         p {
-            // width: 793px;
+            width: 793px;
             height: 96px;
-             margin-top: 60px;
-             left: 203px;
-            font-size: 14px;
+             margin-top: 110px;
+             margin-left: 57px;
+             font-weight: 500;
+            font-size: 16px;
             line-height: 1.6;
             opacity: 0.9;
             text-align: left;
@@ -314,6 +350,7 @@ body {
     }
 
     .spiral-img {
+        flex: 0;
         position: absolute;
         bottom: 10px;
         left: 10px;
@@ -323,9 +360,13 @@ body {
         
   
         img {
-            width: 100%;
-            height: auto;
-            opacity: 0.3; 
+            width: 300px;
+            height: 200px;
+            top: 504.68px;
+            margin-left: 60px;
+            // border: 3px;
+
+           
             
         }
     }
@@ -334,8 +375,9 @@ body {
 
 // section 4 
 .job-listing {
-    max-width: 1500px;
-    margin-top: 150px;
+    width: 1520px;
+    height: 544.68px;
+    margin-top: 100px;
     padding: 50px 100px;
 
 
@@ -344,6 +386,9 @@ body {
         justify-content: space-between;
         align-items: center;
         margin-bottom: 30px;
+        width: 1519.94px;
+        height: 153px;
+        left: 200px;
 
         .job-header-left {
             max-width: 800px;
@@ -353,7 +398,7 @@ body {
             display: inline-block;
             background: #C9F269B2;
             padding: 5px 12px;
-            border-radius: 12px;
+            border-radius: 20px;
             font-size: 14px;
             font-weight: 300;
             color: black;
@@ -385,17 +430,25 @@ body {
     }
 
     .job-cards {
+        margin-top: 26px;
         display: flex;
         gap: 20px;
         overflow-x: auto;
+        width: 1520px;
+        // height: 337px;
+        top: 1927.53px;
+        left: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         scroll-behavior: smooth;
     
         .job-card {
+            margin-top: 39px;
             background: white;
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            min-width: 280px;
+            width: 470px;
             text-align: left;
             border: 1px solid #ddd;
             position: relative;
@@ -462,8 +515,10 @@ body {
 // section 5
 
 .comparison-section {
-    max-width: 1100px;
-   margin-top: 150px;
+    margin-left: 10%;
+    width: 1533px;
+    height: 541px;
+    margin-top: 100px;
     padding: 40px 20px;
 
     .badge {
@@ -496,9 +551,10 @@ body {
     .comparison-container {
         display: flex;
         justify-content: space-between;
-        gap: 30px;
+        gap: 140px;
         text-align: left;
-        margin-top: 20px;
+        margin-top: 50px;
+        line-height: 22px;
         
 
         .comparison-card {
@@ -506,14 +562,15 @@ body {
 
             h3 {
                 color: #1A1A1A;
-                font-style:Poppins ;
-
-                font-size: 20px;
-                font-weight: 700;
-                margin-bottom: 15px;
+                font-style:Poppins;
+                font-size: 32px;
+                font-weight: 500px;
+                margin-bottom: 30px;
             }
 
             ul {
+                width: 691px;
+                height: 25px;
                 list-style: none;
                 padding: 0;
 
@@ -522,7 +579,8 @@ body {
                     display: flex;
                     align-items: center;
                     font-size: 16px;
-                    margin-bottom: 10px;
+                    font-weight: 500px;
+                    margin-bottom: 20px;
                     gap: 10px;
 
                     .check, .cross {
